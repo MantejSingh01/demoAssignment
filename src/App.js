@@ -5,6 +5,7 @@ import { OPTIONS } from "./utils/constants";
 import { useDispatch } from "react-redux";
 import { addResources , addItemWithTagUser, addItemWithTagRequest} from "./utils/resourceSlice";
 import { useEffect,useState } from 'react';
+import { Home } from './Components/Home';
 
 function App() {
   const dispatch = useDispatch()
@@ -29,10 +30,12 @@ function App() {
   useEffect(()=>{
       getResources()
   },[])
+
+
   return (
   
       
-       <Body  loading={loading}/>
+       <Home  loading={loading}/>
   
   );
 }

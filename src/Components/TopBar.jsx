@@ -21,7 +21,7 @@ export const TopBar = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_2_135)">
+              <g >
                 <path
                   d="M64.6163 22.6642H56.7898C55.0233 22.6642 53.5945 24.1127 53.5945 25.9103V36.5948C53.5945 38.3851 55.0233 39.8409 56.7898 39.8409H64.6163C66.3827 39.8409 67.8117 38.3926 67.8117 36.5948V25.903C67.8189 24.1127 66.3827 22.6642 64.6163 22.6642ZM64.3865 27.9846H59.4896V29.8989H64.1496V32.2133H59.4896V34.5132H64.3865V36.8059H57.0267V25.692H64.3937V27.9846H64.3865Z"
                   fill="#002A4B"
@@ -121,7 +121,7 @@ export const TopBar = () => {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop />
-                  <stop offset="0.0702074" stop-opacity="0.9298" />
+                  <stop offset="0.0702074"  />
                   <stop offset="1" stop-opacity="0" />
                 </linearGradient>
                 <linearGradient
