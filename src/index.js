@@ -11,9 +11,9 @@ import { appRouter } from "./Components/Body";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={appStore}>
-    <BrowserRouter basename="/demoAssignment" router={appRouter}>
+    <RouterProvider basename="/demoAssignment" router={appRouter}>
       <App />
-    </BrowserRouter>
+    </RouterProvider>
   </Provider>
 );
 
